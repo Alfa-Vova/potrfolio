@@ -1,0 +1,32 @@
+.header {
+    position: absolute;
+    margin-top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__wrapper {
+        // display: block;
+        width: 500px;
+        // margin: 0 auto;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__item {
+        a {
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            &:hover {
+                color: chartreuse;
+            }
+        }
+    }
+}

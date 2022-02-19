@@ -1,0 +1,31 @@
+.promo {
+    height: 100vh;
+    padding-top: 30vh;
+    background: url(../img/background/two_monitors.jpg) center (center/cover) no-repeat;
+    &__title {
+        font-size: 75px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__descr {
+        font-size: 35px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 240px;
+        height: 65px;
+        background-color: #fed136;
+        color:#ffffff;
+        font-weight: 400;
+        font-size: 25px;
+        border: 3px outset;
+        overflow: none;
+    }
+}
